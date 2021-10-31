@@ -1,6 +1,12 @@
 ## ML-Model-Flask-Deployment
 This is FIFA19 Project assignmnet that uses Machine Learn Model to predict the Player position based on the FIFA19 Datasets are deployed on production using Flask API
 
+## LIVE DEMO
+the project is deployed on : https://fifa19-player-prediction.herokuapp.com/
+
+##NOTEBOOK
+COLAB NOTEBOOK : https://colab.research.google.com/drive/1KTGPhRnEhs2KEpwRta3c6Ci2VCALG1LD?usp=sharing
+
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
@@ -40,3 +46,7 @@ Run the beow command to send the request with some pre-popuated values -
 python request.py
 ```
 
+
+
+## AUTHOR
+The project is created by : Zubeir Msemo
