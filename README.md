@@ -7,6 +7,9 @@ The project is deployed on : https://fifa19-player-prediction.herokuapp.com/
 ## NOTEBOOK
 COLAB NOTEBOOK : https://colab.research.google.com/drive/1KTGPhRnEhs2KEpwRta3c6Ci2VCALG1LD?usp=sharing
 
+## VIDEO ILLUSTRATION 
+Video : https://www.loom.com/share/a455e9e2458b4e9abdef927ab7223ec7
+
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
