@@ -1,10 +1,10 @@
-## ML-Model-Flask-Deployment
+## FIFA19 SPORT PREDICTION ML
 This is FIFA19 Project assignmnet that uses Machine Learn Model to predict the Player position based on the FIFA19 Datasets are deployed on production using Flask API
 
 ## LIVE DEMO
-the project is deployed on : https://fifa19-player-prediction.herokuapp.com/
+The project is deployed on : https://fifa19-player-prediction.herokuapp.com/
 
-##NOTEBOOK
+## NOTEBOOK
 COLAB NOTEBOOK : https://colab.research.google.com/drive/1KTGPhRnEhs2KEpwRta3c6Ci2VCALG1LD?usp=sharing
 
 ### Prerequisites
