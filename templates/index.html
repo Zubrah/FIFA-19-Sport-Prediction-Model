@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>FIFA19 PLayer Position Predict</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>FIFA19 Player Position Prediction</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Height" placeholder="Height" required="required" />
+        <input type="text" name="Crossing" placeholder="Crossing" required="required" />
+		<input type="text" name="Finishing" placeholder="Finishing" required="required" />
+        <input type="text" name="Dribbling" placeholder="Dribbling" required="required" />
+        <input type="text" name="Curve" placeholder="Curve" required="required" />
+		<input type="text" name="Agility" placeholder="Agility" required="required" />
+        <input type="text" name="ShotPower" placeholder="ShotPower" required="required" />
+        <input type="text" name="Jumping" placeholder="Jumping" required="required" />
+		<input type="text" name="Aggression" placeholder="Aggression" required="required" />
+        <input type="text" name="Positioning" placeholder="Positioning" required="required" />
+        <input type="text" name="Vision" placeholder="Vision" required="required" />
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict Position</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
